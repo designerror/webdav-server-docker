@@ -1,5 +1,5 @@
 webdavserver:
-  image: phylor/webdav-ssl
+  build: .
   expose:
    - "443"
   ports:
