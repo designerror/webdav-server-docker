@@ -1,5 +1,4 @@
 webdavserver:
-  #build: .
   image: phylor/webdav-ssl
   expose:
    - "443"
@@ -9,5 +8,3 @@ webdavserver:
    - ./htpasswd:/htpasswd
    - ./certs/:/certs
    - ./dav/:/var/www
-  hostname: webdav.server.local
- 
