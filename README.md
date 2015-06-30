@@ -1,6 +1,6 @@
 ```bash
-git clone https://github.com/designerror/webdavserver.git
-cd webdavserver
+git clone https://github.com/designerror/webdav-server-docker.git
+cd webdav-server-docker
 htpasswd -c htpasswd <username>
 mkdir certs
 cp /path/to/web.crt ./certs/web.crt
