@@ -6,5 +6,5 @@ mkdir certs
 cp /path/to/web.crt ./certs/web.crt
 cp /path/to/web.key ./certs/web.key
 cp -r /path/to/webdav/root/ ./dav/
-sudo fig up
+sudo docker-compose up
 ```
